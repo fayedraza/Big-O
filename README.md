@@ -73,7 +73,9 @@
  public static void display(int n){
  
  System.out.println(Math.pow(2,n)); - O(1) runtime 
+ 
  System.out.println(Math.max(2,n)); - O(1) runtime 
+ 
  System.out.println(Math.ciel(n));  - O(1) runtime 
 
  }
