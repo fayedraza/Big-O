@@ -60,7 +60,7 @@
  - String s = "hi";
  - System.out.println(a[0]); (assume that array is declared)
  
- Example of an algorithm that has O(1) runtimne (pesudocode)
+ **Example of an algorithm that has O(1) runtimne (pesudocode)**
 
  READ number
  DISPLAY numbner * 3
@@ -68,7 +68,7 @@
  Despite the number it will always print a number that is that number multiplied by three meaning the time is consant which
  is the runtime is O(1).
  
- Example of a method that has O(1) runtimne (JAVA)
+ **Example of a method that has O(1) runtimne (JAVA)**
 
  public static void display(int n){
  
