@@ -2,9 +2,9 @@
 
 
 ### Suppose you want to find the fastest way to get to a store. Which is the best way?   
-    - Bus
-    - Ask someone to take you
-    - Uber
+   - Bus
+   - Ask someone to take you
+   - Uber
     
 ### How would you choose the best way?
     The one that is the fastest
@@ -55,7 +55,7 @@
  
  **Examples of Java statements with O(1) runtime**
  
- - int x =7;
+ - int x = 7;
  - int b = 27*89;
  - String s = "hi";
  - System.out.println(a[0]); (assume that array is declared)
@@ -68,7 +68,7 @@
  
  ###### Despite the number it will always print a number that is that number multiplied by three meaning the time is consant which is the runtime is O(1)
  
- **Example of a method that has O(1) runtimne (JAVA)**
+ **Example of a method that has O(1) runtimne (Java)**
 
  public static void display(int n){
  
@@ -76,7 +76,7 @@
  
  System.out.println(Math.max(2,n)); - O(1) runtime 
  
- System.out.println(Math.ciel(n));  - O(1) runtime 
+ System.out.println(Math.ceil(n));  - O(1) runtime 
 
  }
  
