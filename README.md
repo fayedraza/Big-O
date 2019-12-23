@@ -20,32 +20,32 @@
     
 ### Finding the Big O
     
-    **Example 1: O(2n+1)**
+   **Example 1: O(2n+1)**
     
-    O(2n)
-    1 is dropped since non dominant terms get dropped
+   O(2n~~+ 1~~)
+   1 is dropped since non dominant terms get dropped
     
-    O(n)
-    2 gets dropped since it is a constant
+   O(~~2~~n)
+   2 gets dropped since it is a constant
     
-    _Answer:_ O(n)
+   Answer: O(n)
     
-    _Example 2:_ O(n^2+n+1)
+   **Example 2:_ O(n^2+n+1)**
     
-    O(n^2+n)
-    1 gets dropped since it is a non dominant term
+   O(n^2+n~~+1~~)
+   1 gets dropped since it is a non dominant term
     
-    O(n^2)
-    n gets dropped since it is a non dominant term
+   O(n^2~~+n~~)
+   n gets dropped since it is a non dominant term
     
-     _Answer:_ O(n^2)
+   Answer: O(n^2)
     
-     _Example 3:_ O(4)
+   **Example 3:_ O(4)**
      
-     O(1)
-     Since it is a number it is almost the same time complexity as O(1)
+   O(1)
+   Since it is a number it is almost the same time complexity as O(1)
      
-     _Answer:_ O(1)
+   Answer: O(1)
     
     
     
