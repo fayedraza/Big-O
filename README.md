@@ -35,7 +35,7 @@
    O(n^2+n~~+1~~)
    1 gets dropped since it is a non dominant term
     
-   O(n^2~~+n~~)
+   O(n^2 ~~+n~~)
    n gets dropped since it is a non dominant term
     
    Answer: O(n^2)
