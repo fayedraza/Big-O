@@ -32,7 +32,7 @@
     
    **Example 2:_ O(n^2+n+1)**
     
-   O(n^2+n ~~+1~~)
+   O(n^2 +n ~~+1~~)
    1 gets dropped since it is a non dominant term
     
    O(n^2 ~~+ n~~)
