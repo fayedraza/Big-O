@@ -53,7 +53,7 @@
  
  The O(1) Runtime is constant.
  
- Examples of Java statements with O(1) runtime.
+ **Examples of Java statements with O(1) runtime**
  
  - int x =7;
  - int b = 27*89;
@@ -63,6 +63,7 @@
  **Example of an algorithm that has O(1) runtimne (pesudocode)**
 
  READ number
+ 
  DISPLAY numbner * 3
  
  Despite the number it will always print a number that is that number multiplied by three meaning the time is consant which
