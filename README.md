@@ -18,9 +18,9 @@
 ### What is space complexity?
     The amount of space of the algorithm that is denoted by the letter O (Big O).
     
-##  Finding the Big O
+### Finding the Big O
     
-    # Example 1: # O(2n+1)
+    _Example 1_: # O(2n+1)
     
     O(2n)
     1 is dropped since non dominant terms get dropped
