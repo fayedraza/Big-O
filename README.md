@@ -7,7 +7,7 @@
     - Uber
     
 ### How would you choose the best way?
-    - the one that is the fastest
+    The one that is the fastest
    
 ### How to measure efficiency of these algorithms?
     Measure the space complexity and the time complexity of the algorithm. These two complexities will be explained later.
