@@ -20,7 +20,7 @@
     
 ### Finding the Big O
     
-    _Example_ 1: # O(2n+1)
+    *Example 1: # O(2n+1)*
     
     O(2n)
     1 is dropped since non dominant terms get dropped
