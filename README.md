@@ -30,7 +30,7 @@
     
    Answer: O(n)
     
-   **Example 2:_ O(n^2+n+1)**
+   **Example 2: O(n^2+n+1)**
     
    O(n^2 + n ~~+1~~)
    1 gets dropped since it is a non dominant term
@@ -40,7 +40,7 @@
     
    Answer: O(n^2)
     
-   **Example 3:_ O(4)**
+   **Example 3: O(4)**
      
    O(1)
    Since it is a number it is almost the same time complexity as O(1)
