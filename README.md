@@ -66,8 +66,7 @@
  
  DISPLAY numbner * 3
  
- Despite the number it will always print a number that is that number multiplied by three meaning the time is consant which
- is the runtime is O(1).
+ ###### Despite the number it will always print a number that is that number multiplied by three meaning the time is consant which is the runtime is O(1)
  
  **Example of a method that has O(1) runtimne (JAVA)**
 
@@ -81,7 +80,7 @@
 
  }
  
- O(1+1+1) will result to O(3) which is O(1)
+###### O(1+1+1) will result to O(3) which is O(1)
  
     
     
