@@ -92,7 +92,24 @@ The O(n) runtime describes an algortihm that increases linearly. The program dep
 - for loop
 - while loop
 
+**Example of an algorithm that has O(n) runtimne (Pesudocode)**
 
+FOR each element in that array
+DISPLAY that element 
+
+###### Since it will go through every element so it depends on how long the array is. If the length of an array is 1 it will take quickly to go through the array however if the length is 1000 it will take a lot longer. In addition, it increases linearly since as the length of an array increases by 1 its time increases too.
+
+**Example of an algorithm that has O(n) runtimne (Java)**
+
+public void printString(String s){
+
+for(int x=0; x<s.length(); x++){
+System.out.println(s.charAt(x));
+}
+
+}
+
+###### Since it is going through every character in the String so it depends on the length of the String which is why the runtime is O(n). It is similar to the array example.
 
     
     
