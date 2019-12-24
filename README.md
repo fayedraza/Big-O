@@ -84,6 +84,13 @@
 
 ### O(n) Runtime
 
+The O(n) runtime describes an algortihm that increases linearly. The program depends on the size of n.
+
+**Classic examples of O(n) runtime**
+- Tranversing through an array
+- Tranversing through a link list
+- for loop
+- while loop
 
 
 
