@@ -49,7 +49,7 @@
    
  ## Big O Runtimes
  
- **O(1) Runtime**
+ ### O(1) Runtime
  
  The O(1) Runtime is constant.
  
@@ -81,7 +81,12 @@
  }
  
 ###### O(1+1+1) will result to O(3) which is O(1) runtime
- 
+
+### O(n) Runtime
+
+
+
+
     
     
     
