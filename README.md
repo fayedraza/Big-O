@@ -98,6 +98,8 @@ FOR each element in that array
 
 DISPLAY that element 
 
+ENDFOR
+
 ###### Since it will go through every element, so it depends on how long the array is. If the length of an array is one, it will take quickly to go through the array however, if the length is 1000, it will take a lot longer. In addition, it increases linearly as the length of an array increases by 1 its time increases by a bit too.
 
 **Example of an algorithm that has O(n) runtimne (Java)**
@@ -114,7 +116,55 @@ System.out.println(s.charAt(x));
 
 ###### Since it is going through every character in the String so it depends on the length of the String which is why the runtime is O(n). It is similar to the array example.
 
-    
+### O(n^2) Runtime
+
+The O(n^2) runtime describes an algorithm that runs in quadratic time. For instance, an algorithm that has an input of 10 runs 100 times.
+
+**Classic examples of O(n^2) runtime**
+- nested for loop
+- nested while loop
+- Binary search
+- Selection sort
+
+**Example of an algorithm that has O(n^2) runtimne (Pesudocode)**
+
+READ array
+
+For each row
+
+ For each element in that row
+
+ DISPLAY that element
+
+ ENDFOR
+
+ ENDFOR
+ 
+ ###### Note: Array is n by n 
+ 
+ ###### This is an example of a nested for loop. Since it going through every elment for each array its run time is O(n^2). If the array length is three rows with three elements it will run nine times. In this case, 3^2 is 9. 
+ 
+ **Example of an algorithm that has O(n^2) runtimne (Java)**
+ 
+ public int returnInt(int n){
+ 
+ int x=0;
+ 
+ while(x<n){
+ 
+ for(int y=0; y<n; y++){
+ 
+ System.out.println(y);
+ 
+ }
+ 
+ x++;
+ 
+ }
+ 
+ }
+
+###### This is an example of a for loop nested under a while loop. Since it going through every elment in the foor loolnested under the while loop it will take O(n^2) time. 
     
     
     
