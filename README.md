@@ -174,7 +174,7 @@ The O(log n) runtime describes an algorithm that runs log n times. Just remember
 - Binary Search
 - Binary Tree
 
-![Binary Tree](https://images.app.goo.gl/HVbaLadE5sfd5UyA7)
+![Binary Tree](https://images.app.goo.gl/XRag59JRM5LzztNj9)
 
 ###### Start with the top which is 2 and as we choose to go left or right, we are eliminating the other half. For instace, if choose to pick 7 instead of 5 then we will omit 5, 9, and 4.
 
