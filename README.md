@@ -213,29 +213,50 @@ The O(log n) runtime describes an algorithm that runs log n times. Just remember
 public static void sort (int []a, int lo, int hi){
 
 int n = hi-lo;
+
 if(n<=1)
+  
   return;
+  
   int middle = lo + n/2;
+  
   sort(a, lo, middle);
+  
   sort(a, middle, hi);
+  
   merge(a,lo,middle,hi);
+ 
  }
  
 public static void merge(int []a, int lo, int mid, int hi){
+
 int i=lo;
+
 int j=mid;
+
 int n= hi-lo;
+
 for(int k=0; k<n; k++){
+
 if(i==mid)
+
 aux[k] = a[j++];
+
 else if (j==hi)
+
 aux[k] = a[i++];
+
 else if (a[j] < a[i])
+
 aux[k] = a[j++];
+
 else
+
 aux[k] = a[i++];
+
 }
- 
+
+
  ###### Merge sort is a divide a conquer algorithm. More information can be explained about it here.
  
  
