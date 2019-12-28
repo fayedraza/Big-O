@@ -259,9 +259,21 @@ aux[k] = a[i++];
 
  ###### Merge sort is a divide a conquer algorithm. More information can be explained about it here.
  
+ ### O(2^n) Runtime
  
+ The O(2^n) runtime describes an alogrithm whose output doubles as each the input increases.
  
+ **Examples of O(2^n) runtime**
+ - Fibonacci sequence
+ - Towers of Hanoi problem
+ 
+ **Fibonacci Sequence Code**
   
+ public static int fibonacci(int num)
+{
+    if (num <= 1) return num;
+    return fibonacci(num - 2) + fibonacci(num - 1);
+} 
     
     
     
