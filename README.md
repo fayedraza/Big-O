@@ -289,6 +289,28 @@ The O(n!) describes an algortihm that runs n! times.
   }
 }  
     
+### Other Information to Worry About
+
+1. public static void printValues(int a[], int b[]){
+    
+   for(int x=0; x<a.length; x++){
+   System.out.println(a[x]);
+   }
+   
+   for(int x=0; x<b.length; x++){
+   System.out.println(b[x]);
+   }
+   
+   }
+   
+   Sometimes the there can be more than one input that affects the runtime so the runtime can be like O(a+b). In this case, 
+   a is the length of one array while b is the length of the other array. Another example is find the length of a 2D array                   where one input is the number of rows and the the other input is the length of each row (assuming the lenght of each 
+   row is the same). In this case, the big o is O(ab).     
+   
+2. The big o runtime O(n^2) can also have different exponents, such as O(n^3) which is slower than O(n^2) runtime. The higher the exponent the slower the runtime.
+
+3. The big O runtime O(2^n) can also be 3^n which are slower
+    
     
     
     
