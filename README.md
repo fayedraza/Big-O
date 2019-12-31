@@ -309,9 +309,43 @@ The O(n!) describes an algortihm that runs n! times.
    
 2. The big o runtime O(n^2) can also have different exponents, such as O(n^3) which is slower than O(n^2) runtime. The higher the exponent the slower the runtime.
 
-3. The big O runtime O(2^n) can also be 3^n which are slower
-    
-    
-    
+3. The big O runtime O(2^n) can also be 3^n which are slower.
+
+## Space Complexity 
+
+Space complexity is the measure of how much memory a program is required for execution. 
+
+### Examples of Space Complexity (Assume that this is a 32 bit operating system)
+
+**Example 1: int x= 7;**
+ 
+ The space complexity is O(1) becuase since an int is 4 bytes it will be O(4) which is O(1).
+ 
+ **Example 2: char a= 'x';**
+ 
+ The space complexity is O(1) becuase since an char is 2 bytes it will be O(2) which is O(1).
+ 
+ **Example 3: An Array of Integers**
+ 
+ The space complexity is O(n) becuase we are talking about an integer array that holds many integers. Each integer is 4 bytes         so the space complexity of an array is O(4n) which is O(n).
+ 
+  **Example 4: Linked Lists**
+ 
+ The space complexity is O(n) becuase we are talking about a list that holds many nodes. n represents a node which means it is O(n).
+ 
+  **Example 5:**
+  
+  public int returnSum(int a[]){
+  int x=0;
+  
+  for(int b =0; b < a.length; b++){
+   x += a[b];
+   }
+
+  return x;
+  
+  }
+ 
+ The space complexity is O(n) becuase we are talking about an integer array that holds many integers and two integer variables. Each variable space complexity is O(4). The array space complexity is O(4n) since it is holding a number of integer values. With the space complexity of the method as O(4n + 4 + 4) the 4s get dropped and the constant, 4, also gets dropped which makes the Big O, O(n).
     
     
