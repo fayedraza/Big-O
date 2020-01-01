@@ -7,7 +7,7 @@
    - Uber
     
 ### How would you choose the best way?
-    The one that is the fastest
+    The one that is the fastest.
    
 ### How to measure efficiency of these algorithms?
     Measure the space complexity and the time complexity of the algorithm. These two complexities will be explained later.
@@ -16,19 +16,19 @@
     The execution time of the algorithm that is denoted by the letter O (Big O).
     
 ### What is space complexity?
-    The amount of space of the algorithm that is denoted by the letter O (Big O).
+    The amount of space of the algorithm during execution that is denoted by the letter O (Big O).
     
 ### Finding the Big O
     
    **Example 1: O(2n+1)**
     
-    O(2n ~~+ 1~~)
-    1 is dropped since non dominant terms get dropped
+   O(2n ~~+ 1~~)
+   1 is dropped since non dominant terms get dropped
     
-    O(~~2~~n)
-    2 gets dropped since it is a constant
+   O(~~2~~n)
+   2 gets dropped since it is a constant
     
-    Answer: O(n)
+   Answer: O(n)
     
    **Example 2: O(n^2+n+1)**
     
