@@ -22,11 +22,11 @@
     
    **Example 1: O(2n+1)**
     
-   O(2n ~~+ 1~~)
-   1 is dropped since non dominant terms get dropped
-   O(~~2~~n)
-   2 gets dropped since it is a constant
-   Answer: O(n)
+  > O(2n ~~+ 1~~)
+  > 1 is dropped since non dominant terms get dropped
+  > O(~~2~~n)
+  > 2 gets dropped since it is a constant
+  > Answer: O(n)
     
    **Example 2: O(n^2+n+1)**
     
