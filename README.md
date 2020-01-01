@@ -34,20 +34,21 @@
     
    **Example 2: O(n^2+n+1)**
     
-    O(n^2 + n ~~+ 1~~)
-    1 gets dropped since it is a non dominant term
+   > O(n^2 + n ~~+ 1~~)
+   > 1 gets dropped since it is a non dominant term
     
-    O(n^2 ~~+ n~~)
-    n gets dropped since it is a non dominant term
+   > O(n^2 ~~+ n~~)
+   > n gets dropped since it is a non dominant term
     
-    Answer: O(n^2)
+   > Answer: O(n^2)
     
    **Example 3: O(4)**
      
-    O(1)
-    Since it is a number it is almost the same time complexity as O(1)
-     
-    Answer: O(1)
+   > O(~~4~~ 1)
+   > Pretend there is 1 behind 4 so we can assume 4 is our constant
+   > We can drop the four
+   
+   > Answer: O(1)
    
  ## Big O Runtimes
  
