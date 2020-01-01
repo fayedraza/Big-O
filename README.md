@@ -46,6 +46,7 @@
      
    > O(~~4~~ 1)
    > Pretend there is 1 behind 4 so we can assume 4 is our constant
+   >
    > We can drop the four
    
    > Answer: O(1)
