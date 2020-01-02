@@ -97,32 +97,34 @@ The O(n) runtime describes an algortihm that increases linearly. The program dep
 **Classic examples of O(n) runtime**
 - Tranversing through an array
 - Tranversing through a link list
-- for loop
-- while loop
+- For loop
+- While loop
 
 **Example of an algorithm that has O(n) runtimne (Pesudocode)**
 
-FOR each element in that array
+> FOR each element in that array
+>
+> DISPLAY that element 
+>
+> ENDFOR
 
-DISPLAY that element 
-
-ENDFOR
-
-###### Since it will go through every element, so it depends on how long the array is. If the length of an array is one, it will take quickly to go through the array however, if the length is 1000, it will take a lot longer. In addition, it increases linearly as the length of an array increases by 1 its time increases by a bit too.
+###### Since it will go through every element, so it depends upon how long the array is. If the length of an array is one, it will take quickly to go through the array. However, if the length is 1000, it will take a lot longer. In addition, it increases linearly as the length of an array increases by 1 its time increases by a bit too.
 
 **Example of an algorithm that has O(n) runtimne (Java)**
 
+```java
 public void printString(String s){
 
-for(int x=0; x<s.length(); x++){
+   for(int x=0; x<s.length(); x++){
 
-System.out.println(s.charAt(x));
+      System.out.println(s.charAt(x));
+
+   }
 
 }
+```
 
-}
-
-###### Since it is going through every character in the String so it depends on the length of the String which is why the runtime is O(n). It is similar to the array example.
+###### Since it is going through every character in the string so it depends upon the length of the string which is why the runtime is O(n). It is similar to the array example.
 
 ### O(n^2) Runtime
 
