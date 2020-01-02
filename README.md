@@ -260,7 +260,7 @@ public static void merge(int []a, int lo, int mid, int hi){
    }
 ``` 
 
- ###### Merge sort is a divide a conquer algorithm. More information can be explained about it here.
+ ###### Merge sort is a divide and conquer algorithm. More information can be explained about it here.
  
  ### O(2^n) Runtime
  
