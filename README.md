@@ -341,7 +341,7 @@ The big O runtime O(n^2) can also have different exponents, such as O(n^3) which
 
 3. 
 
-The big O runtime O(2^n) can also have different base, such as 3^n which is slower than 2^n. The higher the base the slower the runtime.
+The big O runtime O(2^n) can also have a different base, such as 3^n which is slower than 2^n. The higher the base the slower the runtime.
 
 # Space Complexity 
 
