@@ -1,8 +1,5 @@
 # Big-O
-The action of every agent <br />
-  <br /> into the world 
-starts <br />
-  from their physical selves. <br />
+
 
 ### Suppose you want to find the fastest way to get to a store. Which is the best way?   
    - Bus
@@ -108,11 +105,11 @@ The O(n) runtime describes an algortihm that increases linearly. The program dep
 
 **Example of an algorithm that has O(n) runtimne (Pesudocode)**
 
-> FOR each element in that array
+>     FOR each element in that array
 >
->     DISPLAY that element 
+>           DISPLAY that element 
 >
-> ENDFOR
+>     ENDFOR
 
 ###### Since it will go through every element, so it depends upon how long the array is. If the length of an array is one, it will take quickly to go through the array. However, if the length is 1000, it will take a lot longer. In addition, it increases linearly as the length of an array increases by 1 its time increases by a bit too.
 
