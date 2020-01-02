@@ -19,7 +19,7 @@
     The amount of space of the algorithm during execution that is denoted by the letter O (Big O).
     
    ![1*j8fUQjaUlmrQEN_udU0_TQ](https://user-images.githubusercontent.com/42160652/71653256-851d7300-2cf9-11ea-9e85-cc1fc52d36a5.jpeg)
-   ###### This is a chart showing all of Big O complexities. The complexities that are horrible are more dominant than the        other terms.
+   ###### This is a chart showing all of the Big O complexities. The complexities that are horrible are more dominant but slower than the other terms.
     
 ### Finding the Big O
     
