@@ -71,9 +71,9 @@
  
  **Example of an algorithm that has O(1) runtimne (Pesudocode)**
 
- > READ number
+ >   READ number
  >
- > DISPLAY number * 3
+ >   DISPLAY number * 3
  
  ###### Despite the value of the number, it will always print that number multiplied by three meaning the time is consant which is why the runtime is O(1)
  
@@ -139,17 +139,17 @@ The O(n^2) runtime describes an algorithm that runs in quadratic time. For insta
 
 **Example of an algorithm that has O(n^2) runtimne (Pesudocode)**
 
-> READ array
+>   READ array
 >
-> For each row
+>   For each row
 >
->   For each element in that row
+>     For each element in that row
 >
->   DISPLAY that element
+>     DISPLAY that element
+>
+>     ENDFOR
 >
 >   ENDFOR
->
-> ENDFOR
  
  ###### Note: Array is n by n 
  
@@ -186,14 +186,13 @@ The O(log n) runtime describes an algorithm that runs log n times. Just remember
 
 **Example of an algorithm that has O(log n) runtimne (Pesudocode)**
 
-  > READ x
+  >   READ x
   > 
-  > WHILE x is greater than 0
+  >   WHILE x is greater than 0
   > 
-  >    SET x as x divided by 2
+  >       SET x as x divided by 2
   >
-  > ENDWHILE
-   
+  >   ENDWHILE
    ###### Look at the number of times the while loop ran. It is dividing by 2 every time it is passed into the while loop meaning that it will run log n times assuming that n is x.
    
    **Example of an algorithm that has O(log n) runtimne (Java)**
