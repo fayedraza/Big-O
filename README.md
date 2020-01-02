@@ -76,6 +76,7 @@
  
  **Example of a method that has O(1) runtimne (Java)**
 
+```java
  public static void display(int n){
  
  System.out.println(Math.pow(2,n)); - O(1) runtime 
@@ -85,6 +86,7 @@
  System.out.println(Math.ceil(n));  - O(1) runtime 
 
  }
+ ```
  
 ###### O(1+1+1) will result to O(3) which is O(1) runtime
 
