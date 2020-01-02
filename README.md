@@ -68,9 +68,8 @@
  
  **Example of an algorithm that has O(1) runtimne (Pesudocode)**
 
- READ number
- 
- DISPLAY number * 3
+ > READ number
+ > DISPLAY number * 3
  
  ###### Despite the number it will always print that number multiplied by three meaning the time is consant which also means the runtime is O(1)
  
