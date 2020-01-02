@@ -1,6 +1,6 @@
 # Big-O
 
-Click [here](https://github.com/fayedraza/Big-O/blob/master/README.md#space-complexity)for space complexity.
+Click [here] (https://github.com/fayedraza/Big-O/blob/master/README.md#space-complexity)for space complexity.
 
 # Time Complexity
 
@@ -345,13 +345,13 @@ The big O runtime O(2^n) can also have a different base, such as 3^n which is sl
 
 # Space Complexity 
 
-###### [Click here for time complexity.](https://github.com/fayedraza/Big-O/blob/master/README.md#time-complexity)
+###### Click [here](https://github.com/fayedraza/Big-O/blob/master/README.md#time-complexity) for time complexity.
 
 Space complexity is the measure of how much memory a program is required for execution.
 
 ### Examples of Space Complexity (Assume that this is a 32 bit operating system)
 
-Please be advised it covers topics discussed earlier. [Click here to review the topic.](https://github.com/fayedraza/Big-O/blob/master/README.md#finding-the-big-o)
+Please be advised it covers topics discussed earlier. Click [here](https://github.com/fayedraza/Big-O/blob/master/README.md#finding-the-big-o) to review the topic.
 
 **Example 1: int x= 7;**
  
