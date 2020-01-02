@@ -347,6 +347,8 @@ Space complexity is the measure of how much memory a program is required for exe
 
 ### Examples of Space Complexity (Assume that this is a 32 bit operating system)
 
+Please be advised it covers topics discussed earlier. [Click here to review the topic.]()
+
 **Example 1: int x= 7;**
  
  The space complexity is O(1) becuase since an int is 4 bytes it will be O(4) which is O(1).
