@@ -1,6 +1,6 @@
 # Big-O
 
-Click [here] (https://github.com/fayedraza/Big-O/blob/master/README.md#space-complexity)for space complexity.
+Click [here](https://github.com/fayedraza/Big-O/blob/master/README.md#space-complexity) for space complexity.
 
 # Time Complexity
 
