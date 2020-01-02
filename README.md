@@ -2,7 +2,7 @@
 
 [Click here for space complexity.](https://github.com/fayedraza/Big-O/blob/master/README.md#space-complexity)
 
-## Time Complexity
+# Time Complexity
 
 ### Suppose you want to find the fastest way to get to a store. Which is the best way?   
    - Bus
@@ -343,7 +343,7 @@ The big O runtime O(n^2) can also have different exponents, such as O(n^3) which
 
 The big O runtime O(2^n) can also have different base, such as 3^n which is slower than 2^n. The higher the base the slower the runtime.
 
-## Space Complexity 
+# Space Complexity 
 
 ###### [Click here for time complexity.](https://github.com/fayedraza/Big-O/blob/master/README.md#time-complexity)
 
