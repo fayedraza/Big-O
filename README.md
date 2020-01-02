@@ -107,7 +107,7 @@ The O(n) runtime describes an algortihm that increases linearly. The program dep
 
 > FOR each element in that array
 >
-> DISPLAY that element 
+>     DISPLAY that element 
 >
 > ENDFOR
 
