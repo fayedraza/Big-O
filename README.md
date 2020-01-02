@@ -355,15 +355,15 @@ Please be advised it covers topics discussed earlier. [Click here to review the 
 
 **Example 1: int x= 7;**
  
- The space complexity is O(1) becuase since an int is 4 bytes it will be O(4) which is O(1).
+ The space complexity is O(1) since an int is 4 bytes so it will be O(4) which is O(1).
  
  **Example 2: char a= 'x';**
  
- The space complexity is O(1) becuase since an char is 2 bytes it will be O(2) which is O(1).
+ The space complexity is O(1) since a char is 2 bytes so it will be O(2) which is O(1).
  
  **Example 3: An Array of Integers**
  
- The space complexity is O(n) becuase we are talking about an integer array that holds many integers. Each integer is 4 bytes         so the space complexity of an array is O(4n) which is O(n).
+ The space complexity is O(n) becuase we are talking about an integer array that holds many integers. Each integer is 4 bytes so the space complexity of an array is O(4n) which is O(n).
  
   **Example 4: Linked Lists**
  
@@ -371,16 +371,18 @@ Please be advised it covers topics discussed earlier. [Click here to review the 
  
   **Example 5:**
   
+  ```java
   public int returnSum(int a[]){
-  int x=0;
+      int x=0;
   
-  for(int b =0; b < a.length; b++){
-   x += a[b];
-   }
+     for(int b =0; b < a.length; b++){
+         x += a[b];
+     }
 
-  return x;
+    return x;
   
   }
+  ```
  
  The space complexity is O(n) becuase we are talking about an integer array that holds many integers and two integer variables. Each variable space complexity is O(4). The array space complexity is O(4n) since it is holding a number of integer values. With the space complexity of the method as O(4n + 4 + 4) the 4s get dropped and the constant, 4, also gets dropped which makes the Big O, O(n).
     
