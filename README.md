@@ -197,7 +197,7 @@ The O(log n) runtime describes an algorithm that runs log n times. Just remember
   
    ###### Look at the number of times the while loop ran. It is dividing by 2 every time it is passed into the while loop meaning that it will run log n times assuming that n is x.
    
-   **Example of an algorithm that has O(log n) runtimne (Java)**
+   **Example of an algorithm that has O(log n) runtime (Java)**
     
 ``` java
  public int printNum(int n){
