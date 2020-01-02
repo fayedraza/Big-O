@@ -267,7 +267,7 @@ public static void merge(int []a, int lo, int mid, int hi){
  - Fibonacci sequence
  - [Towers of Hanoi problem](https://www.geeksforgeeks.org/java-program-for-tower-of-hanoi/)
  
- **Fibonacci Sequence Code (Java) **
+ **Fibonacci Sequence Code (Java)**
   
  ``` java 
  public static int fibonacci(int num) {
