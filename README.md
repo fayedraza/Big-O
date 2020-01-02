@@ -1,5 +1,6 @@
 # Big-O
 
+## Time Complexity
 
 ### Suppose you want to find the fastest way to get to a store. Which is the best way?   
    - Bus
@@ -283,13 +284,17 @@ public static void merge(int []a, int lo, int mid, int hi){
 ### O(n!) Runtime
 
 The O(n!) describes an algortihm that runs n! times.
-    
+
+ **Example of an algorithm that has O(n!) runtimne (Java)**
+ 
+ ``` java 
  void nFacRuntimeFunc(int n) {
   for(int i=0; i<n; i++) {
     nFacRuntimeFunc(n-1);
   }
 }  
-    
+ ``` 
+ 
 ### Other Information to Worry About
 
 1. public static void printValues(int a[], int b[]){
