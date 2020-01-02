@@ -1,5 +1,7 @@
 # Big-O
 
+[Click here for space complexity.](https://github.com/fayedraza/Big-O/blob/master/README.md#space-complexity)
+
 ## Time Complexity
 
 ### Suppose you want to find the fastest way to get to a store. Which is the best way?   
