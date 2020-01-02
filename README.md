@@ -30,7 +30,7 @@
   >
   > 2 gets dropped since it is a constant
   
-  > Answer: O(n)
+  > **Answer: O(n)**
     
    **Example 2: O(n^2+n+1)**
     
@@ -42,7 +42,7 @@
    >
    > n gets dropped since it is a non dominant term
     
-   > Answer: O(n^2)
+   > **Answer: O(n^2)**
     
    **Example 3: O(4)**
      
@@ -51,7 +51,7 @@
    >
    > We can drop the four
    
-   > Answer: O(1)
+   > **Answer: O(1)**
    
  ## Big O Runtimes
  
