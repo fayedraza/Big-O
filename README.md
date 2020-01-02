@@ -284,7 +284,11 @@ public static void merge(int []a, int lo, int mid, int hi){
 
 } 
 ``` 
-    
+ 
+![IMG_2520](https://user-images.githubusercontent.com/42160652/71681600-17099800-2d5b-11ea-895f-17e880646388.jpeg)
+
+###### As shown above the output doubles each time. It doubles from 2 to 4 to 8. This is why the runtime is O(2^n).
+
 ### O(n!) Runtime
 
 The O(n!) describes an algortihm that runs n! times.
