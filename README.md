@@ -289,9 +289,11 @@ The O(n!) describes an algortihm that runs n! times.
  
  ``` java 
  void nFacRuntimeFunc(int n) {
+ 
   for(int i=0; i<n; i++) {
     nFacRuntimeFunc(n-1);
   }
+  
 }  
  ``` 
  
