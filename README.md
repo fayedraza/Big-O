@@ -115,7 +115,7 @@ The O(n) runtime describes an algortihm that increases linearly. The program dep
 ```java
 public void printString(String s){
 
-   for(int x=0; x<s.length(); x++){
+   for(int x=0; x<s.length(); x++){ // O(n) runtime
 
       System.out.println(s.charAt(x));
 
