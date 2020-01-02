@@ -299,7 +299,10 @@ The O(n!) describes an algortihm that runs n! times.
  
 ### Other Information to Worry About
 
-1. public static void printValues(int a[], int b[]){
+1. 
+
+``` java
+public static void printValues(int a[], int b[]){
     
    for(int x=0; x<a.length; x++){
    System.out.println(a[x]);
@@ -309,15 +312,14 @@ The O(n!) describes an algortihm that runs n! times.
    System.out.println(b[x]);
    }
    
-   }
+ }
+ ``` 
+ 
+   Sometimes there can be more than one input that affects the runtime so the runtime can be like O(a + log b). In this case, a is the length of one array while b is the length of the other array. Both for loops do not affect each other so the      runtime is O(a+b). Another example is finding the sum of a 2D array where one input is the number of rows and the other input is the length of each row (assuming the length of each row is the same and a and b are not the same value). In this case, the big O is O(ab).     
    
-   Sometimes the there can be more than one input that affects the runtime so the runtime can be like O(a+b). In this case, 
-   a is the length of one array while b is the length of the other array. Another example is find the length of a 2D array                   where one input is the number of rows and the the other input is the length of each row (assuming the lenght of each 
-   row is the same). In this case, the big o is O(ab).     
-   
-2. The big o runtime O(n^2) can also have different exponents, such as O(n^3) which is slower than O(n^2) runtime. The higher the exponent the slower the runtime.
+2. The big O runtime O(n^2) can also have different exponents, such as O(n^3) which is slower than O(n^2) runtime. The higher the exponent the slower the runtime. An example is a triple nested for loop.
 
-3. The big O runtime O(2^n) can also be 3^n which are slower.
+3. The big O runtime O(2^n) can also have different base, such as 3^n which is slower than 2^n. The higher the base the slower the runtime.
 
 ## Space Complexity 
 
