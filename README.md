@@ -72,7 +72,7 @@
  >
  > DISPLAY number * 3
  
- ###### Despite the number it will always print that number multiplied by three meaning the time is consant which also means the runtime is O(1)
+ ###### Despite the value of the number, it will always print that number multiplied by three meaning the time is consant which is why the runtime is O(1)
  
  **Example of a method that has O(1) runtimne (Java)**
 
