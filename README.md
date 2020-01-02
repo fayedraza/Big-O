@@ -264,7 +264,7 @@ public static void merge(int []a, int lo, int mid, int hi){
  
  ### O(2^n) Runtime
  
- The O(2^n) runtime describes an alogrithm whose output doubles as each the input increases.
+ The O(2^n) runtime describes an alogrithm whose output doubles as the input increases.
  
  **Examples of O(2^n) runtime**
  - Fibonacci sequence
