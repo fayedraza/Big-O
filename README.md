@@ -1,5 +1,8 @@
 # Big-O
-
+The action of every agent <br />
+  into the world <br />
+starts <br />
+  from their physical selves. <br />
 
 ### Suppose you want to find the fastest way to get to a store. Which is the best way?   
    - Bus
