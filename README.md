@@ -298,13 +298,15 @@ The O(n!) describes an algortihm that runs n! times.
  **Example of an algorithm that has O(n!) runtimne (Java)**
  
  ``` java 
- void nFacRuntimeFunc(int n) {
- 
-  for(int i=0; i<n; i++) {
-    nFacRuntimeFunc(n-1);
-  }
+ public void printFactorial(int n) {
   
-}  
+    if(n == 0)
+      return;
+  
+    System.out.println(n)
+    nFacRuntimeFunc(n-1);
+  
+ }  
  ``` 
  
 ### Other Information to Worry About
