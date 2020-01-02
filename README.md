@@ -64,7 +64,7 @@
  - int x = 7;
  - int b = 27*89;
  - String s = "hi";
- - System.out.println(a[0]); (assume that array is declared)
+ - System.out.println(a[0]); (assume that the array is declared)
  
  **Example of an algorithm that has O(1) runtimne (Pesudocode)**
 
