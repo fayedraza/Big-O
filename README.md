@@ -199,7 +199,7 @@ The O(log n) runtime describes an algorithm that runs log n times. Just remember
    
    **Example of an algorithm that has O(log n) runtimne (Java)**
     
-     ``` java
+    ``` java
     public int printNum(int n){
       
       for (int x = 1; x < n; x = x * 2){
@@ -207,7 +207,7 @@ The O(log n) runtime describes an algorithm that runs log n times. Just remember
        }
        
      }  
-     ```
+   ``` 
 
 ###### Look at the number of times the for loop ran. It is multiplying by 2 every time in the for loop meaning that it will run log n times.
     
