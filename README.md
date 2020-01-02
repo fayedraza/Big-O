@@ -145,7 +145,7 @@ The O(n^2) runtime describes an algorithm that runs in quadratic time. For insta
 >
 >   For each element in that row
 >
->      DISPLAY that element
+>   DISPLAY that element
 >
 >   ENDFOR
 >
