@@ -211,62 +211,51 @@ The O(log n) runtime describes an algorithm that runs log n times. Just remember
 
 ###### Look at the number of times the for loop ran. It is multiplying by 2 every time in the for loop meaning that it will run log n times.
     
-### O(nlogn) Runtime
+### O(n logn) Runtime
     
-  The O(log n) runtime describes an algorithm that usually divide and conquer.
+  The O(n log n) runtime describes a divide and conquer algorithm.
   
    **Examples of O(n logn) runtime**
    - Merge sort
    - Heap sort
   
   **Merge Sort Code**
-  
+
+``` java
 public static void sort (int []a, int lo, int hi){
 
-int n = hi-lo;
+   int n = hi-lo;
 
-if(n<=1)
+   if(n<=1)
+      return;
   
-  return;
+     int middle = lo + n/2;
   
-  int middle = lo + n/2;
-  
-  sort(a, lo, middle);
-  
-  sort(a, middle, hi);
-  
-  merge(a,lo,middle,hi);
+     sort(a, lo, middle);
+     sort(a, middle, hi);
+     merge(a,lo,middle,hi);
  
  }
  
 public static void merge(int []a, int lo, int mid, int hi){
 
-int i=lo;
+   int i=lo;
+   int j=mid;
+   int n= hi-lo;
 
-int j=mid;
+   for(int k=0; k<n; k++){
 
-int n= hi-lo;
-
-for(int k=0; k<n; k++){
-
-if(i==mid)
-
-aux[k] = a[j++];
-
-else if (j==hi)
-
-aux[k] = a[i++];
-
-else if (a[j] < a[i])
-
-aux[k] = a[j++];
-
-else
-
-aux[k] = a[i++];
-
-}
-
+       if(i==mid)
+         aux[k] = a[j++];
+       else if (j==hi)
+         aux[k] = a[i++];
+       else if (a[j] < a[i])
+         aux[k] = a[j++];
+       else
+         aux[k] = a[i++];
+         
+   }
+``` 
 
  ###### Merge sort is a divide a conquer algorithm. More information can be explained about it here.
  
