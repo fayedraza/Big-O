@@ -345,7 +345,9 @@ The big O runtime O(2^n) can also have different base, such as 3^n which is slow
 
 ## Space Complexity 
 
-Space complexity is the measure of how much memory a program is required for execution. 
+###### [Click here for time complexity.](https://github.com/fayedraza/Big-O/blob/master/README.md#time-complexity)
+
+Space complexity is the measure of how much memory a program is required for execution.
 
 ### Examples of Space Complexity (Assume that this is a 32 bit operating system)
 
