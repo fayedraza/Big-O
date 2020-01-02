@@ -262,7 +262,7 @@ public static void merge(int []a, int lo, int mid, int hi){
 
 ![IMG_2519](https://user-images.githubusercontent.com/42160652/71680074-2b4b9600-2d57-11ea-9b18-53a855ac71af.jpeg)
 
- ###### As shown above, merge sort is a divide and conquer algorithm
+ ###### As shown above, merge sort is a divide and conquer algorithm.
  
  ### O(2^n) Runtime
  
