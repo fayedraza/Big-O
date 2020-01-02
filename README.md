@@ -273,7 +273,7 @@ public static void merge(int []a, int lo, int mid, int hi){
  public static int fibonacci(int num) {
 
     if (num <= 1) 
-     return num;
+      return num;
     
     return fibonacci(num - 2) + fibonacci(num - 1);
 
