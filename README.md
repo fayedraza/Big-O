@@ -384,6 +384,6 @@ Please be advised it covers topics discussed earlier. [Click here to review the 
   }
   ```
  
- The space complexity is O(n) becuase we are talking about an integer array that holds many integers and two integer variables. Each variable space complexity is O(4). The array space complexity is O(4n) since it is holding a number of integer values. With the space complexity of the method as O(4n + 4 + 4) the 4s get dropped and the constant, 4, also gets dropped which makes the big O, O(n).
+ The space complexity is O(n) becuase we are talking about an integer array that holds many integers and two integer variables. Each variable space complexity is O(4). The array space complexity is O(4n) since it is holding a number of integer values. With the space complexity of the method as O(4n + 4 + 4) the 4s get dropped and the constant, 4, also gets dropped which makes the Big O, O(n).
     
     
