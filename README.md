@@ -349,7 +349,7 @@ The Big O runtime O(2^n) can also have a different base, such as 3^n which is sl
 
 Space complexity is the measure of how much memory a program is required for execution.
 
-![IMG_2514](https://user-images.githubusercontent.com/42160652/71678527-6055e980-2d53-11ea-9706-2c655de2baaf.jpeg | width=48)
+![IMG_2517](https://user-images.githubusercontent.com/42160652/71678926-4bc62100-2d54-11ea-95d4-88831e0bde68.jpeg)
 ###### Typical memory used by primitive types
 
 ### Examples of Space Complexity (Assume that we are using the chart above)
