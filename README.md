@@ -265,19 +265,20 @@ public static void merge(int []a, int lo, int mid, int hi){
  
  **Examples of O(2^n) runtime**
  - Fibonacci sequence
- - Towers of Hanoi problem
+ - [Towers of Hanoi problem](https://www.geeksforgeeks.org/java-program-for-tower-of-hanoi/)
  
- **Fibonacci Sequence Code**
+ **Fibonacci Sequence Code (Java) **
   
- public static int fibonacci(int num)
+ ``` java 
+ public static int fibonacci(int num) {
 
-{
-
-    if (num <= 1) return num;
+    if (num <= 1) 
+     return num;
     
     return fibonacci(num - 2) + fibonacci(num - 1);
 
 } 
+``` 
     
 ### O(n!) Runtime
 
