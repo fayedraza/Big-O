@@ -18,6 +18,9 @@
 ### What is space complexity?
     The amount of space of the algorithm during execution that is denoted by the letter O (Big O).
     
+    ![1*j8fUQjaUlmrQEN_udU0_TQ](https://user-images.githubusercontent.com/42160652/71653256-851d7300-2cf9-11ea-9e85-cc1fc52d36a5.jpeg)
+    ######This is a chart showing all of Big O complexities. The complexities that are horrible are more dominant than the        other terms.
+    
 ### Finding the Big O
     
    **Example 1: O(2n+1)**
@@ -157,21 +160,15 @@ The O(n^2) runtime describes an algorithm that runs in quadratic time. For insta
  ``` java
    public int returnInt(int n){
  
-          int x=0;
+     int x=0;
+      while(x<n){
+         for(int y=0; y<n; y++){
+            System.out.println(y);
+         }
+                x++;
+       }
  
-       while(x<n){
- 
- for(int y=0; y<n; y++){
- 
- System.out.println(y);
- 
- }
- 
- x++;
- 
- }
- 
- }
+    }
  ```
 ###### This is an example of a for loop nested under a while loop. Since it is going through every element in the foor loop nested under the while loop, it will take O(n^2) time. 
 
