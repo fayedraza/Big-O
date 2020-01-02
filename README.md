@@ -116,9 +116,7 @@ The O(n) runtime describes an algortihm that increases linearly. The program dep
 public void printString(String s){
 
    for(int x=0; x<s.length(); x++){ // O(n) runtime
-
-      System.out.println(s.charAt(x));
-
+       System.out.println(s.charAt(x));
    }
 
 }
@@ -131,36 +129,37 @@ public void printString(String s){
 The O(n^2) runtime describes an algorithm that runs in quadratic time. For instance, an algorithm that has an input of 10 runs 100 times.
 
 **Examples of O(n^2) runtime**
-- Nested For Loop
-- Nested While Loop
-- Insertion Sort
-- Selection Sort
+- Nested for loop
+- Nested while loop
+- Insertion sort
+- Selection sort
 
 **Example of an algorithm that has O(n^2) runtimne (Pesudocode)**
 
-READ array
-
-For each row
-
- For each element in that row
-
- DISPLAY that element
-
- ENDFOR
-
- ENDFOR
+> READ array
+>
+> For each row
+>
+>   For each element in that row
+>
+>      DISPLAY that element
+>
+>   ENDFOR
+>
+> ENDFOR
  
  ###### Note: Array is n by n 
  
- ###### This is an example of a nested for loop. Since it going through every elment for each array, its run time is O(n^2). If the array length is three rows with three elements it will run nine times. In this case, 3^2 is 9. 
+ ###### This is an example of a nested for loop. Since it is going through every elment for each row, its run time is O(n^2). If the array length is three rows with three elements in each row it will run nine times because 3^2 is 9. 
  
  **Example of an algorithm that has O(n^2) runtimne (Java)**
+  
+ ``` java
+   public int returnInt(int n){
  
- public int returnInt(int n){
+          int x=0;
  
- int x=0;
- 
- while(x<n){
+       while(x<n){
  
  for(int y=0; y<n; y++){
  
@@ -173,7 +172,7 @@ For each row
  }
  
  }
-
+ ```
 ###### This is an example of a for loop nested under a while loop. Since it is going through every element in the foor loop nested under the while loop, it will take O(n^2) time. 
 
 ### O(log n) Runtime
