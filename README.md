@@ -153,7 +153,7 @@ The O(n^2) runtime describes an algorithm that runs in quadratic time. For insta
  
  ###### Note: Array is n by n 
  
- ###### This is an example of a nested for loop. Since it is going through every elment for each row, its run time is O(n^2). If the array length is three rows with three elements in each row it will run nine times because 3^2 is 9. 
+ ###### This is an example of a nested for loop. Since it is going through every elment for each row, its run time is O(n^2). If the array length is three rows with three elements in each row then it will run nine times because 3^2 is 9. 
  
  **Example of an algorithm that has O(n^2) runtimne (Java)**
   
@@ -177,32 +177,36 @@ The O(n^2) runtime describes an algorithm that runs in quadratic time. For insta
 The O(log n) runtime describes an algorithm that runs log n times. Just remember that in computer science when we talk about log n the base is always 2. If an input is 16 then it will run 4 times.
 
 **Examples of O(log n) runtime**
-- Binary Search
-- Binary Tree
+- Binary search
+- Binary tree
 
-![Binary Search](https://drive.google.com/file/d/1-oHQSTIRbUl-HYlGptDKk-QpkQiyhfgK/view?usp=drivesdk)
+![ya+FtimvfAAAAABJRU5ErkJggg==](https://user-images.githubusercontent.com/42160652/71653678-c7e04a80-2cfb-11ea-9ad1-2d67300eb442.png)
 
-###### Start with the top which is 2 and as we choose to go left or right, we are eliminating the other half. For instace, if choose to pick 7 instead of 5 then we will omit 5, 9, and 4.
+###### This is a binary tree. Starting at the top which is 2 and as we choose to go left or right, we are eliminating the other half. For instace, if we choose to pick 7 instead of 5 then we will omit 5, 9, and 4.
 
 **Example of an algorithm that has O(log n) runtimne (Pesudocode)**
 
-   READ x
-   
-   WHILE x is greater than 0
-   
-   SET x as x divided by 2
-   
-   ENDWHILE
+  > READ x
+  > 
+  > WHILE x is greater than 0
+  > 
+  >    SET x as x divided by 2
+  >
+  > ENDWHILE
    
    ###### Look at the number of times the while loop ran. It is dividing by 2 every time it is passed into the while loop meaning that it will run log n times assuming that n is x.
    
    **Example of an algorithm that has O(log n) runtimne (Java)**
     
+     ``` java
     public int printNum(int n){
+      
       for (int x = 1; x < n; x = x * 2){
            System.out.println(x);
        }
+       
      }  
+     ```
 
 ###### Look at the number of times the for loop ran. It is multiplying by 2 every time in the for loop meaning that it will run log n times.
     
