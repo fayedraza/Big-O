@@ -304,13 +304,14 @@ The O(n!) describes an algortihm that runs n! times.
 ``` java
 public static void printValues(int a[], int b[]){
     
-   for(int x=0; x<a.length; x++){
+   for(int x=0; x<a.length; x++){ //O(a)
    System.out.println(a[x]);
    }
    
-   for(int x=0; x<b.length; x++){
+   for(int x=0; x<b.length; x++){ //O(b)
    System.out.println(b[x]);
    }
+   // O(a + b)
    
  }
  ``` 
@@ -322,13 +323,14 @@ public static void printValues(int a[], int b[]){
 ``` java
 public static void printValues(int x, int y, int z){
   
-    for(int a=0;a<x;x++){
-      for(int b=0; b<y; b++){
-       for(int c=0; c<z; c++){
+    for(int a=0;a<x;x++){ // O(n)
+      for(int b=0; b<y; b++){ // O(n)
+       for(int c=0; c<z; c++){ // O(n)
          System.out.println(a+b+c);
                               }
                    }
          }
+         // O(n*n*n)-> O(n^3)
          
  }        
 ``` 
