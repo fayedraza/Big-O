@@ -319,6 +319,19 @@ public static void printValues(int a[], int b[]){
    
 2. 
 
+``` java
+public static void printValues(int x, int y, int z){
+  
+    for(int a=0;a<x;x++){
+      for(int b=0; b<y; b++){
+       for(int c=0; c<z; c++){
+         System.out.println(a+b+c);
+                              }
+                   }
+         }
+         
+ }        
+
 The big O runtime O(n^2) can also have different exponents, such as O(n^3) which is slower than O(n^2) runtime. The higher the exponent the slower the runtime. An example is a triple nested for loop.
 
 3. 
