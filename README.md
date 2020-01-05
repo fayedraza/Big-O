@@ -181,7 +181,7 @@ The O(n^2) runtime describes an algorithm that runs in quadratic time. For insta
 The O(log n) runtime describes an algorithm that runs log n times. Just remember that in computer science when we talk about log n the base is always 2. If an input is 16 then it will run 4 times.
 
 **Examples of O(log n) runtime**
-- Binary search
+- [Binary search](https://github.com/fayedraza/Algorithms#binary-search)
 - Binary tree
 
 ![ya+FtimvfAAAAABJRU5ErkJggg==](https://user-images.githubusercontent.com/42160652/71653678-c7e04a80-2cfb-11ea-9ad1-2d67300eb442.png)
