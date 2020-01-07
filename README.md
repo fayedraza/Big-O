@@ -137,8 +137,8 @@ The O(n^2) runtime describes an algorithm that runs in quadratic time. For insta
 **Examples of O(n^2) runtime**
 - Nested for loop
 - Nested while loop
-- Insertion sort
-- Selection sort
+- [Insertion sort](https://github.com/fayedraza/Algorithms#insertion-sort)
+- [Selection sort](https://github.com/fayedraza/Algorithms#selection-sort)
 
 **Example of an algorithm that has O(n^2) runtimne (Pesudocode)**
 
