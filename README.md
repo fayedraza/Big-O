@@ -303,8 +303,13 @@ The O(n!) describes an algortihm that runs n! times.
     if(n == 0)
       return;
   
+  int x=0;
+  while (x<n){
     System.out.println(n)
-    nFacRuntimeFunc(n-1);
+    x++;
+   } 
+   
+ nFacRuntimeFunc(n-1);
   
  }  
  ``` 
