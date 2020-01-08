@@ -336,7 +336,7 @@ public static void printValues(int a[], int b[]){
  }
  ``` 
  
-   Sometimes there can be more than one input that affects the runtime so the runtime can be like O(a + log b). In this case, a is the length of one array while b is the length of the other array. Both for loops do not affect each other so the      runtime is O(a+b). Another example is finding the sum of a 2D array where one input is the number of rows and the other input is the length of each row (assuming that a and b are not the same value). In this case, the Big O is O(ab).     
+   Sometimes there can be more than one input that affects the runtime so the runtime can be like O(a + log b). In this case, a is the length of one array while b is the length of the other array. Both for loops do not affect each other so the      runtime is O(a+b). Another example is finding the sum of a 2D array where one input is the number of rows and the other input is the length of each row (assuming that a and b does not have the same value). In this case, the Big O is O(ab).     
    
 2. 
 
