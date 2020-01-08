@@ -308,12 +308,15 @@ The O(n!) describes an algortihm that runs n! times.
     System.out.print(n)
     x++;
    } 
-  System.out.println(); 
+
+ System.out.println(); 
  nFacRuntimeFunc(n-1);
   
  }  
  ``` 
  
+![IMG_2570](https://user-images.githubusercontent.com/42160652/72012222-8e429e80-3229-11ea-9193-4067d320921a.jpeg)
+
 ### Other Information to Worry About
 
 1. 
