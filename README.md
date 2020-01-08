@@ -214,12 +214,12 @@ The O(log n) runtime describes an algorithm that runs log n times. Just remember
 
 ###### Look at the number of times the for loop ran. It is multiplying by 2 every time in the for loop meaning that it will run log n times.
     
-### O(n log n) Runtime
+### O(nlog n) Runtime
     
-  The O(n log n) runtime describes a divide and conquer algorithm.
+  The O(nlog n) runtime describes a divide and conquer algorithm.
   
-   **Examples of O(n logn) runtime**
-   - Merge sort
+   **Examples of O(nlog n) runtime**
+   - [Merge sort](https://github.com/fayedraza/Algorithms/blob/master/README.md#merge-sort)
    - Heap sort
   
   **Merge Sort Code**
