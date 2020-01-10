@@ -307,7 +307,7 @@ The O(n!) describes an algortihm that runs n! times.
  }  
  ``` 
 
-###### Since the Factorial method gets called Factorial(n), Factorial(n-1), Factorial(n-2), and so on the runtime is O(n!)
+###### Since the Factorial method gets called Factorial(n), Factorial(n-1), Factorial(n-2), and so on, the runtime is O(n!).
 
 ### Other Information to Worry About
 
